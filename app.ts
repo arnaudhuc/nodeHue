@@ -1,7 +1,7 @@
 require("dotenv").config();
 const axios = require("axios");
 
-const ids = [3, 4];
+const ids = [6, 7];
 const controlLight = async (
   lightId: number,
   isOn: boolean,
